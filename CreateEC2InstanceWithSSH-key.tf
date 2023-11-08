@@ -20,6 +20,14 @@ tags = {
 }
 }
 
+resource "aws_instance" "Test1-Server" {
+  ami           = "ami-07b5c2e394fccab6e"
+  instance_type = "t2.micro"
+tags = {
+ Name = "kowsar-server"
+}
+}
+
 #### file ends here ####
 # terraform validate
 # terraform plan
