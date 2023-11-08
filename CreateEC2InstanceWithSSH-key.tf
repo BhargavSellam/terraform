@@ -16,7 +16,7 @@ resource "aws_instance" "Test-Server" {
   ami           = "ami-07b5c2e394fccab6e"
   instance_type = "t2.micro"
 tags = {
- Name = "dev-server"
+ Name = "chandrika-server"
 }
 }
 
